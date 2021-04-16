@@ -1,0 +1,240 @@
+/*project Name:
+project Director:
+Clint Name:
+Project Start Date:
+Project Submission Date:
+Total Page:
+
+**************************************
+			Home Page
+***********************************
+1.TopBar
+2.Header
+3.Slider
+4.About us
+5.Popular Course
+6.Facts
+7.Recent News
+8.Testimonial
+9.CTA
+10.Footer*/
+
+/****************************************
+			Base Css start
+************************************************/
+   body{
+   	padding: 0;
+   	margin: 0;
+   }
+   a{
+   	text-decoration: none; 
+   }
+   a:hover{
+   	text-decoration: none; 
+   }
+   ul{
+   	list-style: none;
+   	margin: 0 !important;
+   	padding: 0;
+   }
+/****************************************
+			Base Css end
+************************************************/
+/****************************************
+			Common Css start
+************************************************/
+   .primary-color{
+   	color: #56ab2f;
+   }
+   .primary-bg{
+   	background-color: #56ab2f;
+   }
+   .secondary-color{
+   	color: #000022;
+   }
+   .secondary-bg{
+   	background-color: #000022;
+   }
+   .btn-primary-bg{
+   	background:#56ab2f;
+   	border:1px solid #56ab2f;
+   	color: white;
+   }
+   .btn-primary-bg:hover{
+   	background: transparent;
+   	border:1px solid #56ab2f;
+   	color: black;
+   }
+   .btn-outline-primary-bg{
+   	background:transparent;
+   	border:1px solid #56ab2f;
+   	color: black;
+   }
+   .btn-outline-primary-bg:hover{
+   	background: #56ab2f;
+   	border:1px solid #56ab2f;
+   	color: white;
+   }
+/****************************************
+			Common Css end
+************************************************/
+/****************************************
+			TopBar Css start
+************************************************/
+   .topbar{
+   	height: 49px;
+   	line-height: 49px;
+   	width: 100%;
+   }
+   .topbar-left li{
+   	margin-left: 20px;
+   }
+   .topbar-left li:first-child{
+   	margin-left: 0;
+   }
+   .topbar-right li:first-child:after{
+   	content: "|";
+   	color: #000022!important;
+   	padding-left: 10px;
+   	padding-right: 10px;
+   }
+/****************************************
+			TopBar Css end
+************************************************/
+/****************************************
+			Header Css start
+************************************************/
+   .b-margin{
+   	margin-left: -5px;
+   }
+   .nav-link{
+   	font-weight: bold !important;
+   }
+   nav{
+   	height: 89px;
+   }
+/****************************************
+			Header Css end
+************************************************/
+/****************************************
+			slide Css start
+************************************************/
+   .carousel-position-absolute{
+   	position: absolute;
+   	left: 55%;
+   	top: 40%;
+   }
+   .font-size-14{
+   	font-size: 14px !important;
+   }
+/****************************************
+			slide Css end
+************************************************/
+/****************************************
+			About US Css start
+************************************************/
+   .principle-bg{
+   	background-image: url('../img/academy/academy.png');
+   }
+   .principle-absolute{
+   	margin-left: -100px;
+    margin-top: 45px;
+    margin-bottom: -41px;
+   }
+   .msg{
+   	word-spacing: 8px;
+  }
+/****************************************
+			About US Css end
+************************************************/
+/****************************************
+			Popular Course Css start
+************************************************/
+   .line{
+   	width: 150px;
+   	border-bottom: 2px solid #cfcfcf;
+   	margin-left: 90px;
+   }
+   .owl-carousel .owl-nav button.owl-next,
+   .owl-carousel .owl-nav button.owl-prev{
+   	position: absolute;
+   	top: 40%;
+   	font-size: 30px;
+   	border:none;
+   }
+   .owl-carousel .owl-nav button.owl-next:hover,
+   .owl-carousel .owl-nav button.owl-prev:hover{
+   	background:transparent;
+   	color: #56ab2f;
+   }
+   .owl-carousel .owl-nav button.owl-next{
+   	right: -5%;
+   }
+   .owl-carousel .owl-nav button.owl-prev{
+   	left: -5%;
+   }
+/****************************************
+			Popular Course Css end
+************************************************/
+/****************************************
+			Facts Css start
+************************************************/
+   .facts{
+   	background-image: url('../img/facts/facts.png');
+   	background-attachment: fixed;
+   }
+/****************************************
+			Facts Css end
+************************************************/
+/****************************************
+			Recent News Css start
+************************************************/
+   .card:hover{
+   	border:2px solid #56ab2f; 
+   }
+/****************************************
+			Recent News Css end
+************************************************/
+/****************************************
+			Testimonial Css start
+************************************************/
+   .testimonial{
+   	background:url('../img/testimonial/bg.png');
+   }
+  .student-img{
+  	width: 150px !important;
+  	height: 150px;
+  	margin: 0px auto !important;
+  }
+  .top-img{
+  	background: transparent;
+    margin-bottom: -70px;
+    border:none;
+  }
+  .testimonial .card:hover{
+    border:none;
+  }
+  .testimonial .card-body{
+    border: 35px solid transparent;
+    border-image: url('../img/testimonial/border.png') 50% round;
+    border-top: none;
+  }
+/****************************************
+			Testimonial Css end
+************************************************/
+/****************************************
+			CTA Css start
+************************************************/
+   .cta{
+   	background-color: #56ab2f;
+   }
+/****************************************
+			CTA Css end
+************************************************/
+/****************************************
+			Footer Css start
+************************************************/
+   
+/****************************************
+			Footer Css end
+************************************************/
